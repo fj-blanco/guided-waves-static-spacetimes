@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2015" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false">
+</View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" quiet="false" errorcursor="false" longdelim="true" plotoptions="" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="768" warnlevel="0" screenheight="25" latexwidth="8.0" postplot="" prompt="M_cartesian &gt; " ShowLabels="true"/>
+<Styles>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(Physics):with(DifferentialGeometry):with(plots):with(PDEtools):with(Tensor):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L2" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVFecFJlcHJvZHVjdGlvbn5vZn50aGV+cmVzdWx0c35mcm9tfkJvdWFzfidIZXJ0en5Qb3RlbnRpYWxzfmFuZH5EaWZmZXJlbnRpYWx+R2VvbWV0cnknRicvJSdpdGFsaWNHUSV0cnVlRicvRjBRJ2l0YWxpY0YnLyUrZXhlY3V0YWJsZUdGNEYv">NiI=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L4" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVE1TWFuaWZvbGR+ZGVmaW5pdGlvbjpGJy8lJ2l0YWxpY0dRJXRydWVGJy9GMFEnaXRhbGljRicvJStleGVjdXRhYmxlR0Y0Ri8=">NiI=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">DGsetup([t, x, y, z], M_cartesian, verbose): </Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SU9UaGV+Zm9sbG93aW5nfmNvb3JkaW5hdGVzfmhhdmV+YmVlbn5wcm90ZWN0ZWQ6RzYi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">NyZJInRHJSpwcm90ZWN0ZWRHSSJ4R0YkSSJ5R0YkSSJ6R0Yk</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SWduVGhlfmZvbGxvd2luZ352ZWN0b3J+ZmllbGRzfmhhdmV+YmVlbn5kZWZpbmVkfmFuZH5wcm90ZWN0ZWQ6RzYi</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYsLUkqbWNvbXBsZXRlR0YkNiQtRiw2Ji1JI21pR0YkNiVRJGAqYEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RMCZBcHBseUZ1bmN0aW9uO0YnL0Y7USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGRS8lKXN0cmV0Y2h5R0ZFLyUqc3ltbWV0cmljR0ZFLyUobGFyZ2VvcEdGRS8lLm1vdmFibGVsaW1pdHNHRkUvJSdhY2NlbnRHRkUvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZULUYjNiQtRjQ2JVEkRF90RidGN0Y6RkFGQS1GLDYmLUY0NiVRJF9ER0YnRjdGOkY9LUYjNiQtRiM2Ji1GLDYoLUYjNiYtRiw2Ki1JI21zR0YkNiNRJ3ZlY3RvckYnLUY+Ni1RIixGJ0ZBRkMvRkdGOUZIRkpGTEZORlBGUi9GVlEsMC4zMzMzMzMzZW1GJy1GNDYlUSxNX2NhcnRlc2lhbkYnRjdGOkZpby1GIzYlRkEvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0YnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0ZFRkFGQUZkcEZncEZpby1GIzYmLUYjNiYtRiw2KC1GIzYmLUkjbW5HRiQ2JFEiMUYnRkFGQUZkcEZncEZpb0ZncUZqcEZdcUZBRkFGZHBGZ3BGQUZkcEZncEZqcEZdcUZBRkFGZHBGZ3BGQUZBRmlvLUYvNiQtRiw2JkYzRj0tRiM2JC1GNDYlUSREX3hGJ0Y3RjpGQUZBLUYsNiZGaG5GPS1GIzYkLUYjNiYtRiw2KEZhb0Zpby1GIzYmLUYjNiYtRiw2KC1GIzYmLUZocTYkUSIyRidGQUZBRmRwRmdwRmlvRmdxRmpwRl1xRkFGQUZkcEZncEZBRmRwRmdwRmpwRl1xRkFGQUZkcEZncEZBRkFGaW8tRi82JC1GLDYmRjNGPS1GIzYkLUY0NiVRJERfeUYnRjdGOkZBRkEtRiw2JkZobkY9LUYjNiQtRiM2Ji1GLDYoRmFvRmlvLUYjNiYtRiM2Ji1GLDYoLUYjNiYtRmhxNiRRIjNGJ0ZBRkFGZHBGZ3BGaW9GZ3FGanBGXXFGQUZBRmRwRmdwRkFGZHBGZ3BGanBGXXFGQUZBRmRwRmdwRkFGQUZpby1GLzYkLUYsNiZGM0Y9LUYjNiQtRjQ2JVEkRF96RidGN0Y6RkFGQS1GLDYmRmhuRj0tRiM2JC1GIzYmLUYsNihGYW9GaW8tRiM2Ji1GIzYmLUYsNigtRiM2Ji1GaHE2JFEiNEYnRkFGQUZkcEZncEZpb0ZncUZqcEZdcUZBRkFGZHBGZ3BGQUZkcEZncEZqcEZdcUZBRkFGZHBGZ3BGQUZBRmpwRl1xRkFGQS9GZXBRIltGJy9GaHBRIl1GJw==">NyYtSSRfREdHNiI2IzckNyVRJ3ZlY3RvckYlSSxNX2NhcnRlc2lhbkdGJTciNyM3JDcjIiIiRi8tRiQ2IzckRig3IzckNyMiIiNGLy1GJDYjNyRGKDcjNyQ3IyIiJEYvLUYkNiM3JEYoNyM3JDcjIiIlRi8=</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">SV5vVGhlfmZvbGxvd2luZ35kaWZmZXJlbnRpYWx+MS1mb3Jtc35oYXZlfmJlZW5+ZGVmaW5lZH5hbmR+cHJvdGVjdGVkOkc2Ig==</Equation></Text-field>
+</Output>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUklbXJvd0dGJDYsLUkqbWNvbXBsZXRlR0YkNiQtRiw2Ji1JI21pR0YkNiVRJGAqYEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RMCZBcHBseUZ1bmN0aW9uO0YnL0Y7USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGRS8lKXN0cmV0Y2h5R0ZFLyUqc3ltbWV0cmljR0ZFLyUobGFyZ2VvcEdGRS8lLm1vdmFibGVsaW1pdHNHRkUvJSdhY2NlbnRHRkUvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZULUYjNiQtRjQ2JVEjZHRGJ0Y3RjpGQUZBLUYsNiYtRjQ2JVEkX0RHRidGN0Y6Rj0tRiM2JC1GIzYmLUYsNigtRiM2Ji1GLDYqLUkjbXNHRiQ2I1ElZm9ybUYnLUY+Ni1RIixGJ0ZBRkMvRkdGOUZIRkpGTEZORlBGUi9GVlEsMC4zMzMzMzMzZW1GJy1GNDYlUSxNX2NhcnRlc2lhbkYnRjdGOkZpby1JI21uR0YkNiRRIjFGJ0ZBLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0ZFRkFGQS8lJW9wZW5HUScmbHNxYjtGJy8lJmNsb3NlR1EnJnJzcWI7RidGaW8tRiM2Ji1GIzYmLUYsNigtRiM2JkZicEZBRltxRl5xRmlvRmJwRmZwRmlwRkFGQUZbcUZecUZBRltxRl5xRmZwRmlwRkFGQUZbcUZecUZBRkFGaW8tRi82JC1GLDYmRjNGPS1GIzYkLUY0NiVRI2R4RidGN0Y6RkFGQS1GLDYmRmhuRj0tRiM2JC1GIzYmLUYsNihGYW9GaW8tRiM2Ji1GIzYmLUYsNigtRiM2Ji1GY3A2JFEiMkYnRkFGQUZbcUZecUZpb0ZicEZmcEZpcEZBRkFGW3FGXnFGQUZbcUZecUZmcEZpcEZBRkFGW3FGXnFGQUZBRmlvLUYvNiQtRiw2JkYzRj0tRiM2JC1GNDYlUSNkeUYnRjdGOkZBRkEtRiw2JkZobkY9LUYjNiQtRiM2Ji1GLDYoRmFvRmlvLUYjNiYtRiM2Ji1GLDYoLUYjNiYtRmNwNiRRIjNGJ0ZBRkFGW3FGXnFGaW9GYnBGZnBGaXBGQUZBRltxRl5xRkFGW3FGXnFGZnBGaXBGQUZBRltxRl5xRkFGQUZpby1GLzYkLUYsNiZGM0Y9LUYjNiQtRjQ2JVEjZHpGJ0Y3RjpGQUZBLUYsNiZGaG5GPS1GIzYkLUYjNiYtRiw2KEZhb0Zpby1GIzYmLUYjNiYtRiw2KC1GIzYmLUZjcDYkUSI0RidGQUZBRltxRl5xRmlvRmJwRmZwRmlwRkFGQUZbcUZecUZBRltxRl5xRmZwRmlwRkFGQUZbcUZecUZBRkFGZnBGaXBGQUZBL0ZccVEiW0YnL0ZfcVEiXUYn">NyYtSSRfREdHNiI2IzckNyVRJWZvcm1GJUksTV9jYXJ0ZXNpYW5HRiUiIiI3IzckNyNGK0YrLUYkNiM3JEYoNyM3JDcjIiIjRistRiQ2IzckRig3IzckNyMiIiRGKy1GJDYjNyRGKDcjNyQ3IyIiJUYr</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L6" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L442" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVEoTWV0cmljOkYnLyUnaXRhbGljR1EldHJ1ZUYnL0YwUSdpdGFsaWNGJy8lK2V4ZWN1dGFibGVHRjRGLw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVEoTWV0cmljOkYnLyUnaXRhbGljR1EldHJ1ZUYnL0YwUSdpdGFsaWNGJw==</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L443" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">g:= evalDG( -dt &amp;t dt +  dx &amp;t dx +  dy &amp;t dy + dz &amp;t dz)</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEiZ0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSptY29tcGxldGVHRiQ2JC1GIzYrLUY2Ni1RKiZ1bWludXMwO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZYLUkobWZlbmNlZEdGJDYkLUYjNiYtRmVuNiQtRiM2Ji1GLDYlUSRgKmBGJ0YvRjItRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZORmRvLUZlbjYkLUYsNiVRI2R0RidGL0YyRjlGOUY5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkhGY29GZW9GaG9GOUY5LUY2Ni1RJyZwbHVzO0YnRjlGO0Y+RkBGQkZERkZGSEZXRlktRiM2Ji1GZW42JC1GIzYmRl1vRmBvLUZlbjYkLUYsNiVRI2R4RidGL0YyRjlGOUY5RltwRmlwRjlGXnAtRiM2Ji1GZW42JC1GIzYmRl1vRmBvLUZlbjYkLUYsNiVRI2R5RidGL0YyRjlGOUY5RltwRmRxRjlGXnAtRiM2Ji1GZW42JC1GIzYmRl1vRmBvLUZlbjYkLUYsNiVRI2R6RidGL0YyRjlGOUY5RltwRl9yRjlGOS1GIzYmLUYsNiVRJF9ER0YnRi9GMkZgby1GZW42JC1GZW42Ji1GIzYoLUZlbjYmLUYjNiotSSNtc0dGJDYjUSd0ZW5zb3JGJy1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRmNvL0ZOUSwwLjMzMzMzMzNlbUYnLUYsNiVRLE1fY2FydGVzaWFuRidGL0YyRmVzLUZlbjYmLUYjNigtRmVuNiYtRiM2KC1GYnM2I1EoY292X2Jhc0YnRmVzRmZ0LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y9RjlGOS8lJW9wZW5HUScmbHNxYjtGJy8lJmNsb3NlR1EnJnJzcWI7RidGZXMtRmVuNiVGOUZedUZhdUZpdEZcdUY5RjlGXnVGYXVGaXRGXHVGOUY5Rl51RmF1RmVzLUZlbjYmLUYjNiwtRmVuNiYtRiM2KC1GZW42Ji1GIzYoLUkjbW5HRiQ2JFEiMUYnRjlGZXNGYnZGaXRGXHVGOUY5Rl51RmF1RmVzLUZjdjYkUSsmdW1pbnVzMDsxRidGOUZpdEZcdUY5RjlGXnVGYXVGZXMtRmVuNiYtRiM2KC1GZW42Ji1GIzYoLUZjdjYkUSIyRidGOUZlc0Zhd0ZpdEZcdUY5RjlGXnVGYXVGZXNGYnZGaXRGXHVGOUY5Rl51RmF1RmVzLUZlbjYmLUYjNigtRmVuNiYtRiM2KC1GY3Y2JFEiM0YnRjlGZXNGXHhGaXRGXHVGOUY5Rl51RmF1RmVzRmJ2Rml0Rlx1RjlGOUZedUZhdUZlcy1GZW42Ji1GIzYoLUZlbjYmLUYjNigtRmN2NiRRIjRGJ0Y5RmVzRmd4Rml0Rlx1RjlGOUZedUZhdUZlc0ZidkZpdEZcdUY5RjlGXnVGYXVGaXRGXHVGOUY5Rl51RmF1Rml0Rlx1RjlGOUZedUZhdUY5RjlGaXRGXHVGOQ==">LUkkX0RHRzYiNiM3JDclUSd0ZW5zb3JGJEksTV9jYXJ0ZXNpYW5HRiQ3JDckUShjb3ZfYmFzRiRGLDciNyY3JDckIiIiRjEhIiI3JDckIiIjRjVGMTckNyQiIiRGOEYxNyQ3JCIiJUY7RjE=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L7" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L161" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVFKSG9kZ2V+c3Rhcn5hY3Rpb25+b25+YmFzaXN+cCYjODcyMjtmb3JtcztGJy8lJ2l0YWxpY0dRJXRydWVGJy9GMFEnaXRhbGljRicvJStleGVjdXRhYmxlR0Y0Ri8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVFKSG9kZ2V+c3Rhcn5hY3Rpb25+b25+YmFzaXN+cCYjODcyMjtmb3JtcztGJy8lJ2l0YWxpY0dRJXRydWVGJy9GMFEnaXRhbGljRicvJStleGVjdXRhYmxlR0Y0Ri8=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L304" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">HodgeStar(g, a, detmetric = -1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L303" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">HodgeStar(g, dt, detmetric = -1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L302" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">HodgeStar(g, &amp;wedge(dt, dz), detmetric = -1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L299" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">HodgeStar(g, dt &amp;wedge dx &amp;wedge dy, detmetric = -1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L298" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">HodgeStar(g, dt &amp;wedge dx &amp;wedge dy &amp;wedge dz, detmetric = -1):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L297" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JSFH</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L295" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L292" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JSFH</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L293" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L475" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVFIQ2hyaXN0b2ZmZWx+c3ltYm9sc35vZn50aGV+c2Vjb25kfmtpbmQ6RicvJSdpdGFsaWNHUSV0cnVlRicvRjBRJ2l0YWxpY0YnLyUrZXhlY3V0YWJsZUdGNEYv">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVFIQ2hyaXN0b2ZmZWx+c3ltYm9sc35vZn50aGV+c2Vjb25kfmtpbmQ6RicvJSdpdGFsaWNHUSV0cnVlRicvRjBRJ2l0YWxpY0YnLyUrZXhlY3V0YWJsZUdGNEYv</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L477" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">C:= Christoffel(g, &quot;SecondKind&quot;):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L459" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVEuUmljY2l+dGVuc29yOkYnLyUnaXRhbGljR1EldHJ1ZUYnL0YwUSdpdGFsaWNGJy8lK2V4ZWN1dGFibGVHRjRGLw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVEuUmljY2l+dGVuc29yOkYnLyUnaXRhbGljR1EldHJ1ZUYnL0YwUSdpdGFsaWNGJy8lK2V4ZWN1dGFibGVHRjRGLw==</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L479" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">R:=RicciTensor(C):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L455" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L587" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVFHQ2xlYW5pbmd+SGVydHppYW5+cG90ZW50aWFsfmNvbXBvbmVudHNGJy8lJ2l0YWxpY0dRJXRydWVGJy9GMFEnaXRhbGljRicvJStleGVjdXRhYmxlR0Y0Ri8=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVFHQ2xlYW5pbmd+SGVydHppYW5+cG90ZW50aWFsfmNvbXBvbmVudHNGJy8lJ2l0YWxpY0dRJXRydWVGJy9GMFEnaXRhbGljRicvJStleGVjdXRhYmxlR0Y0Ri8=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L617" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">phi(t,x,y,z):=phi(t,x,y,z): psi(t,x,y,z):=psi(t,x,y,z):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L615" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVE0SGVydHppYW5+cG90ZW50aWFsOkYnLyUnaXRhbGljR1EldHJ1ZUYnL0YwUSdpdGFsaWNGJy8lK2V4ZWN1dGFibGVHRjRGLw==">NiI=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L623" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">Pi_h:= DGzip(([phi(t, x, y, z), -psi(t, x, y, z)]), [&amp;wedge(dt, dz),HodgeStar(g,&amp;wedge(dt, dz),<Font bold="true" style="Text" family="Courier New" executable="true" foreground="[104,64,92]">detmetric = -1</Font>)], &quot;plus&quot;)</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVElUGlfaEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSptY29tcGxldGVHRiQ2JC1GIzYmLUYjNigtSShtZmVuY2VkR0YkNiQtRiM2Ji1GIzYmLUYsNiVRJiZwaGk7RicvRjBGPUY5LUY2Ni1RMCZBcHBseUZ1bmN0aW9uO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZfby1GVzYkLUYjNiwtRiw2JVEidEYnRi9GMi1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRl5vL0ZOUSwwLjMzMzMzMzNlbUYnLUYsNiVRInhGJ0YvRjJGaG8tRiw2JVEieUYnRi9GMkZoby1GLDYlUSJ6RidGL0YyLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y9RjlGOUY5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkhGXm9GYG8tRiw2JVEjZHRGJ0YvRjJGOUY5RlxxLUYsNiVRKyZiaWd3ZWRnZTtGJ0YvRjJGXHEtRiw2JVEjZHpGJ0YvRjJGOS1GNjYtUScmcGx1cztGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GXHItRiM2KC1GVzYkLUYjNiYtRiM2Ji1GLDYlUSYmcHNpO0YnRmpuRjlGW29GYW9GOUZccS1GLDYlUSNkeEYnRi9GMkY5RjlGXHFGYnFGXHEtRiw2JVEjZHlGJ0YvRjJGOUY5LUYjNiYtRiw2JVEkX0RHRidGL0YyRltvLUZXNiQtRlc2Ji1GIzYoLUZXNiYtRiM2Ki1JI21zR0YkNiNRJWZvcm1GJ0Zoby1GLDYlUSxNX2NhcnRlc2lhbkYnRi9GMkZoby1JI21uR0YkNiRRIjJGJ0Y5RmdwRmpwRjlGOS8lJW9wZW5HUScmbHNxYjtGJy8lJmNsb3NlR1EnJnJzcWI7RidGaG8tRlc2Ji1GIzYoLUZXNiYtRiM2KC1GVzYmLUYjNigtRmZ0NiRRIjFGJ0Y5RmhvLUZmdDYkUSI0RidGOUZncEZqcEY5RjlGaXRGXHVGaG9GZW5GZ3BGanBGOUY5Rml0Rlx1RmhvLUZXNiYtRiM2KC1GVzYmLUYjNihGZXRGaG8tRmZ0NiRRIjNGJ0Y5RmdwRmpwRjlGOUZpdEZcdUZob0ZkckZncEZqcEY5RjlGaXRGXHVGZ3BGanBGOUY5Rml0Rlx1RmdwRmpwRjlGOUZpdEZcdUY5RjlGZ3BGanBGOQ==">LUkkX0RHRzYiNiM3JDclUSVmb3JtRiRJLE1fY2FydGVzaWFuR0YkIiIjNyQ3JDckIiIiIiIlLUkkcGhpR0YkNiZJInRHJSpwcm90ZWN0ZWRHSSJ4R0Y0SSJ5R0Y0SSJ6R0Y0NyQ3JEYqIiIkLUkkcHNpR0YkRjI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L609" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L635" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVFMTGFwbGFjaWFufmFjdGluZ35vbn5hfnRlc3R+c2NhbGFyfmZ1bmN0aW9uOkYnLyUnaXRhbGljR1EldHJ1ZUYnL0YwUSdpdGFsaWNGJy8lK2V4ZWN1dGFibGVHRjRGLw==">NiI=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L636" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">Laplacian(g, f_test(t, x, y, z))</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUYjNigtSSZtZnJhY0dGJDYoLUYjNiYtSSVtc3VwR0YkNiUtSSNtb0dGJDYtUSsmUGFydGlhbEQ7RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y+LyUpc3RyZXRjaHlHRj4vJSpzeW1tZXRyaWNHRj4vJShsYXJnZW9wR0Y+LyUubW92YWJsZWxpbWl0c0dGPi8lJ2FjY2VudEdGPi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRk0tSSNtbkdGJDYkUSIyRidGOS8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRicvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRj5GOS1GIzYmLUYjNidGNS1GMzYlLUkjbWlHRiQ2JVEidEYnLyUnaXRhbGljR1EldHJ1ZUYnL0Y6USdpdGFsaWNGJ0ZQRlRGV0ZaRjlGV0ZaRjkvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmpvLyUpYmV2ZWxsZWRHRj4tRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGPEY/RkFGQ0ZFRkdGSUZLRk4tRiM2KC1GXW82JVEnZl90ZXN0RidGYG9GY28tRjY2LVEwJkFwcGx5RnVuY3Rpb247RidGOUY8Rj9GQUZDRkVGR0ZJRktGTi1JKG1mZW5jZWRHRiQ2JC1GIzYsRlxvLUY2Ni1RIixGJ0Y5RjwvRkBGYm9GQUZDRkVGR0ZJRksvRk9RLDAuMzMzMzMzM2VtRictRl1vNiVRInhGJ0Zgb0Zjb0ZfcS1GXW82JVEieUYnRmBvRmNvRl9xLUZdbzYlUSJ6RidGYG9GY29GV0ZaRjlGOUZXRlpGOUZXRlpGOS1GNjYtUSgmbWludXM7RidGOUY8Rj9GQUZDRkVGR0ZJL0ZMUSwwLjIyMjIyMjJlbUYnL0ZPRmJyLUZbcTYkLUYjNigtRi42KEYwLUYjNiYtRiM2J0Y1LUYzNiVGZXFGUEZURldGWkY5RldGWkY5RmVvRmhvRltwRl1wRl9wRmJwRldGWkY5RjlGXnItRltxNiQtRiM2KC1GLjYoRjAtRiM2Ji1GIzYnRjUtRjM2JUZocUZQRlRGV0ZaRjlGV0ZaRjlGZW9GaG9GW3BGXXBGX3BGYnBGV0ZaRjlGOUZeci1GW3E2JC1GIzYoLUYuNihGMC1GIzYmLUYjNidGNS1GMzYlRltyRlBGVEZXRlpGOUZXRlpGOUZlb0Zob0ZbcEZdcEZfcEZicEZXRlpGOUY5Rjk=">LCotSSVkaWZmRyUqcHJvdGVjdGVkRzYkLUYkNiQtSSdmX3Rlc3RHNiI2JkkidEdGJUkieEdGJUkieUdGJUkiekdGJUYtRi0iIiItRiQ2JC1GJDYkRilGLkYuISIiLUYkNiQtRiQ2JEYpRi9GL0Y2LUYkNiQtRiQ2JEYpRjBGMEY2</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L616" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L614" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVFMTGFwbGFjaWFufmFjdGluZ35vbn50aGV+SGVydHppYW5+cG90ZW50aWFsOkYnLyUnaXRhbGljR1EldHJ1ZUYnL0YwUSdpdGFsaWNGJy8lK2V4ZWN1dGFibGVHRjRGLw==">NiI=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L634" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">Lap:=Laplacian(g,Pi_h):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L637" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVFec05vdGFyfnF1ZX5lbH5EJ0FsZW1iZXJ0aWFub35lc35tZW5vc35lbH5vcGVyYWRvcn5kZX5MYXBsYWNlLUJlbHRyYW1pLH5lbn5lc2V+Y2Fzb35jb2luY2lkZX50b2RvfmNvbn5Cb3Vhcy5+VmVyfmxhfnNpZ3VpZW50ZX5wcnVlYmE6RicvJSdpdGFsaWNHUSV0cnVlRicvRjBRJ2l0YWxpY0YnLyUrZXhlY3V0YWJsZUdGNEYv">NiI=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L605" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVFdcUFob3JhfmNhbGN1bGFtb3N+bGF+Mi1mb3JtYX5jdXlhc35jb21wb25lbnRlc35zb25+ZWx+TGFwbGFjaWFub35kZX5sYXN+Y29tcG9uZW50ZXN+ZGV+UGlfY2FydGVzaWFuRicvJSdpdGFsaWNHUSV0cnVlRicvRjBRJ2l0YWxpY0YnLyUrZXhlY3V0YWJsZUdGNEYv">NiI=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L638" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">Lap_phi:=Laplacian(g,phi(t, x, y, z)) : Lap_psi:=Laplacian(g,psi(t, x, y, z)):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L622" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JSFH</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L620" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">Pi_Lap_comp:= DGzip(([Lap_phi, -Lap_psi]), [&amp;wedge(dt, dz),HodgeStar(g,&amp;wedge(dt, dz),<Font bold="true" style="Text" family="Courier New" executable="true" foreground="[104,64,92]">detmetric = -1</Font>)], &quot;plus&quot;) :</Text-field>
+</Input>
+</Group>
+<Group labelreference="L633" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L630" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVE6Q2FsY3VsYW1vc35sYX5kaWZlcmVuY2lhOkYnLyUnaXRhbGljR1EldHJ1ZUYnL0YwUSdpdGFsaWNGJy8lK2V4ZWN1dGFibGVHRjRGLw==">NiI=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L618" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">Lap &amp;minus Pi_Lap_comp</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkqbWNvbXBsZXRlRzYjL0krbW9kdWxlbmFtZUc2IkksVHlwZXNldHRpbmdHSShfc3lzbGliR0YnNiQtSSVtcm93R0YkNigtSShtZmVuY2VkR0YkNiQtRiw2Ji1JI21pR0YkNiVRIjBGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUTEmSW52aXNpYmxlVGltZXM7RicvRjtRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZFLyUpc3RyZXRjaHlHRkUvJSpzeW1tZXRyaWNHRkUvJShsYXJnZW9wR0ZFLyUubW92YWJsZWxpbWl0c0dGRS8lJ2FjY2VudEdGRS8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRlQtRjQ2JVEjZHRGJ0Y3RjpGQUZBRj0tRjQ2JVErJmJpZ3dlZGdlO0YnRjdGOkY9LUY0NiVRI2R4RidGN0Y6RkEtRiw2Ji1GNDYlUSRfREdGJ0Y3RjotRj42LVEwJkFwcGx5RnVuY3Rpb247RidGQUZDRkZGSEZKRkxGTkZQRlJGVS1GLzYkLUYvNiYtRiw2KC1GLzYmLUYsNiotSSNtc0dGJDYjUSVmb3JtRictRj42LVEiLEYnRkFGQy9GR0Y5RkhGSkZMRk5GUEZSL0ZWUSwwLjMzMzMzMzNlbUYnLUY0NiVRLE1fY2FydGVzaWFuRidGN0Y6RmBwLUkjbW5HRiQ2JFEiMkYnRkEvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUpcmVhZG9ubHlHRkVGQUZBLyUlb3BlbkdRJyZsc3FiO0YnLyUmY2xvc2VHUScmcnNxYjtGJ0ZgcC1GLzYmLUYvNiYtRiw2KC1GLzYmLUYsNigtRmpwNiRRIjFGJ0ZBRmBwRmlwRl1xRmBxRkFGQUZicUZlcUZgcC1GanA2JEY2RkFGXXFGYHFGQUZBRmJxRmVxRkFGYnFGZXFGXXFGYHFGQUZBRmJxRmVxRkFGQQ==">LUkkX0RHRzYiNiM3JDclUSVmb3JtRiRJLE1fY2FydGVzaWFuR0YkIiIjNyM3JDckIiIiRioiIiE=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L629" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L611" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L607" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JSFH</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L627" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L613" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L602" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L601" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L604" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVEwRmFyYWRheX4yLWZvcm06RicvJSdpdGFsaWNHUSV0cnVlRicvRjBRJ2l0YWxpY0YnLyUrZXhlY3V0YWJsZUdGNEYv">NiI=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L610" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">CodiffPi:=<Font bold="true" style="Text" family="Courier New" executable="true" foreground="[104,64,92]">Laplacian:-ExteriorDerivativeStar(g,</Font>Pi_h,<Font bold="true" style="Text" family="Courier New" executable="true" foreground="[104,64,92]">detmetric = -1</Font>):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L603" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">F:=ExteriorDerivative(CodiffPi) </Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIzo9RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtSSptY29tcGxldGVHRiQ2JC1GIzYvLUY2Ni1RKiZ1bWludXMwO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJy9GTkZYLUkobWZlbmNlZEdGJDYkLUYjNigtRmVuNiQtRiM2Ji1GZW42JC1GIzYnRlQtRmVuNiQtRiM2KC1JJm1mcmFjR0YkNigtSSVtc3VwR0YkNiUtRjY2LVErJlBhcnRpYWxEO0YnRjlGO0Y+RkBGQkZERkZGSC9GS1EmMC4wZW1GJy9GTkZfcC1JI21uR0YkNiRRIjJGJ0Y5LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GIzYnRltwLUYsNiVRInRGJ0YvRjJGW3AtRiw2JVEieUYnRi9GMkY5LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZlcS8lKWJldmVsbGVkR0Y9LUknbXNwYWNlR0YkNiYvJSdoZWlnaHRHUSYwLjBleEYnLyUmd2lkdGhHUSYwLjRlbUYnLyUmZGVwdGhHRl9yLyUqbGluZWJyZWFrR1ElYXV0b0YnLUYsNiVRJiZwc2k7RicvRjBGPUY5LUY2Ni1RMCZBcHBseUZ1bmN0aW9uO0YnRjlGO0Y+RkBGQkZERkZGSEZecEZgcC1GZW42JC1GIzYsRmpwLUY2Ni1RIixGJ0Y5RjsvRj9GMUZARkJGREZGRkhGXnAvRk5RLDAuMzMzMzMzM2VtRictRiw2JVEieEYnRi9GMkZjc0ZdcUZjcy1GLDYlUSJ6RidGL0YyLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y9RjlGOUY5RjktRjY2LVEnJnBsdXM7RidGOUY7Rj5GQEZCRkRGRkZIRldGWS1GIzYoLUZmbzYoRmhvLUYjNidGW3BGaXNGW3BGXHRGOUZgcUZjcUZmcUZocUZqcS1GLDYlUSYmcGhpO0YnRltzRjlGXHNGX3NGOUY5RjktRjY2LVExJkludmlzaWJsZVRpbWVzO0YnRjlGO0Y+RkBGQkZERkZGSEZecEZgcC1GLDYlUSNkdEYnRi9GMkY5RjlGYHUtRiw2JVErJmJpZ3dlZGdlO0YnRi9GMkZgdS1GLDYlUSNkeEYnRi9GMkY5RjktRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSEZXRlktRmVuNiQtRiM2KC1GZW42JC1GIzYmLUZlbjYkLUYjNiYtRiM2KC1GZm82KEZoby1GIzYnRltwRmpwRltwRmlzRjlGYHFGY3FGZnFGaHFGanFGaHJGXHNGX3NGOUZkdC1GIzYoLUZmbzYoRmhvLUYjNidGW3BGXXFGW3BGXHRGOUZgcUZjcUZmcUZocUZqcUZddUZcc0Zfc0Y5RjlGOUZgdUZjdUY5RjlGYHVGZnVGYHUtRiw2JVEjZHlGJ0YvRjJGOUY5RmR0LUYjNigtRmVuNiQtRiM2Ji1GZW42JC1GIzYmLUYjNigtRmZvNihGaG8tRiM2JUZbcC1GaW82JUZqcEZhcEZlcEY5RmBxRmNxRmZxRmhxRmpxRl11RlxzRl9zRjlGXHYtRmVuNiQtRiM2KC1GZm82KEZoby1GIzYlRltwLUZpbzYlRlx0RmFwRmVwRjlGYHFGY3FGZnFGaHFGanFGXXVGXHNGX3NGOUY5RjlGOUZgdUZjdUY5RjlGYHVGZnVGYHUtRiw2JVEjZHpGJ0YvRjJGOUZcdi1GZW42JC1GIzYoLUZlbjYkLUYjNiYtRmVuNiQtRiM2Ji1GIzYoLUZmbzYoRmhvLUYjNiVGW3AtRmlvNiVGaXNGYXBGZXBGOUZgcUZjcUZmcUZocUZqcUZockZcc0Zfc0Y5RmR0LUYjNigtRmZvNihGaG8tRiM2JUZbcC1GaW82JUZdcUZhcEZlcEY5RmBxRmNxRmZxRmhxRmpxRmhyRlxzRl9zRjlGOUY5RmB1Rml1RjlGOUZgdUZmdUZgdUZnd0Y5RjlGZHQtRiM2KC1GZW42JC1GIzYmLUZlbjYkLUYjNiYtRiM2KEZdd0ZqcUZddUZcc0Zfc0Y5Rlx2LUZlbjYkLUYjNihGY3dGanFGaHJGXHNGX3NGOUY5RjlGOUZgdUZpdUY5RjlGYHVGZnVGYHVGZnlGOUZkdC1GIzYoLUZlbjYkLUYjNiYtRmVuNiQtRiM2Ji1GIzYoRmVvRmpxRl11RlxzRl9zRjlGZHQtRiM2KEZpdEZqcUZockZcc0Zfc0Y5RjlGOUZgdUZnd0Y5RjlGYHVGZnVGYHVGZnlGOUY5LUYjNiYtRiw2JVEkX0RHRidGL0YyRlxzLUZlbjYkLUZlbjYmLUYjNigtRmVuNiYtRiM2Ki1JI21zR0YkNiNRJWZvcm1GJ0Zjcy1GLDYlUSxNX2NhcnRlc2lhbkYnRi9GMkZjc0ZhcEZfdEZidEY5RjkvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0YnRmNzLUZlbjYmLUYjNjAtRmVuNiYtRiM2KC1GZW42Ji1GIzYoLUZicDYkRmJxRjlGY3NGYXBGX3RGYnRGOUY5RmlebEZcX2xGY3MtRiM2JkZjb0Zcdi1GZW42JEZndEY5RjlGX3RGYnRGOUY5RmlebEZcX2xGY3MtRmVuNiYtRiM2KC1GZW42Ji1GIzYoRltgbEZjcy1GYnA2JFEiM0YnRjlGX3RGYnRGOUY5RmlebEZcX2xGY3MtRiM2J0ZULUZlbjYkRlt3RjlGXHYtRmVuNiRGYXdGOUY5Rl90RmJ0RjlGOUZpXmxGXF9sRmNzLUZlbjYmLUYjNigtRmVuNiYtRiM2KEZbYGxGY3MtRmJwNiRRIjRGJ0Y5Rl90RmJ0RjlGOUZpXmxGXF9sRmNzRmJ4Rl90RmJ0RjlGOUZpXmxGXF9sRmNzLUZlbjYmLUYjNigtRmVuNiYtRiM2KEZhcEZjc0ZpYGxGX3RGYnRGOUY5RmlebEZcX2xGY3MtRiM2J0ZULUZlbjYkRmV6RjlGXHYtRmVuNiRGXVtsRjlGOUZfdEZidEY5RjlGaV5sRlxfbEZjcy1GZW42Ji1GIzYoLUZlbjYmLUYjNihGYXBGY3NGamFsRl90RmJ0RjlGOUZpXmxGXF9sRmNzRl1cbEZfdEZidEY5RjlGaV5sRlxfbEZjcy1GZW42Ji1GIzYoLUZlbjYmLUYjNihGaWBsRmNzRmphbEZfdEZidEY5RjlGaV5sRlxfbEZjc0ZdXWxGX3RGYnRGOUY5RmlebEZcX2xGX3RGYnRGOUY5RmlebEZcX2xGX3RGYnRGOUY5RmlebEZcX2xGOUY5Rl90RmJ0Rjk=">LUkkX0RHRzYiNiM3JDclUSVmb3JtRiRJLE1fY2FydGVzaWFuR0YkIiIjNyg3JDckIiIiRiosJi1JJWRpZmZHJSpwcm90ZWN0ZWRHNiQtRjE2JC1JJHBzaUdGJDYmSSJ0R0YySSJ4R0YySSJ5R0YySSJ6R0YyRjlGO0YuLUYxNiQtRjE2JC1JJHBoaUdGJEY4RjpGPCEiIjckNyRGLiIiJCwmLUYxNiRGNEY6RkMtRjE2JC1GMTYkRkFGO0Y8RkM3JDckRi4iIiUsJi1GMTYkLUYxNiRGQUY5RjlGLi1GMTYkLUYxNiRGQUY8RjxGQzckNyRGKkZGLCYtRjE2JC1GMTYkRjZGOkY6RkMtRjE2JC1GMTYkRjZGO0Y7RkM3JDckRipGUCwmLUYxNiRGVEY6Ri4tRjE2JEZdb0Y8RkM3JDckRkZGUCwmLUYxNiRGVEY7Ri4tRjE2JEZpbkY8Ri4=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L606" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L608" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L626" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVEqVEV+bW9kZXM6RicvJSdpdGFsaWNHUSV0cnVlRicvRjBRJ2l0YWxpY0YnLyUrZXhlY3V0YWJsZUdGNEYv">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVEqVEV+bW9kZXM6RicvJSdpdGFsaWNHUSV0cnVlRicvRjBRJ2l0YWxpY0YnLyUrZXhlY3V0YWJsZUdGNEYv</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L628" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">phi(t,x,y,x) = 0</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">Ly1JJHBoaUc2IjYmSSJ0RyUqcHJvdGVjdGVkR0kieEdGKEkieUdGKEYpIiIh</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L612" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L624" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIjpGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC8lK2V4ZWN1dGFibGVHRj1GOQ==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIjpGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGTC8lK2V4ZWN1dGFibGVHRj1GOQ==</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L583" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JSFH</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L641" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVEqVE1+bW9kZXM6RicvJSdpdGFsaWNHUSV0cnVlRicvRjBRJ2l0YWxpY0YnLyUrZXhlY3V0YWJsZUdGNEYv">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2LVEiI0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y0LyUqc3ltbWV0cmljR0Y0LyUobGFyZ2VvcEdGNC8lLm1vdmFibGVsaW1pdHNHRjQvJSdhY2NlbnRHRjQvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZDLUkjbWlHRiQ2JVEqVE1+bW9kZXM6RicvJSdpdGFsaWNHUSV0cnVlRicvRjBRJ2l0YWxpY0YnLyUrZXhlY3V0YWJsZUdGNEYv</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L642" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal">psi(t,x,y,x) = 0</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">Ly1JJHBzaUc2IjYmSSJ0RyUqcHJvdGVjdGVkR0kieEdGKEkieUdGKEYpIiIh</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L639" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L640" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnL0YzUSdub3JtYWxGJw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JVEiRkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnL0YzUSdub3JtYWxGJw==</Equation></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkqbWNvbXBsZXRlRzYjL0krbW9kdWxlbmFtZUc2IkksVHlwZXNldHRpbmdHSShfc3lzbGliR0YnNiQtSSVtcm93R0YkNi4tRiw2KC1JKG1mZW5jZWRHRiQ2JC1GLDYmLUkmbWZyYWNHRiQ2KC1GLDYoLUYsNiotSSNtbkdGJDYkUSIyRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LVExJkludmlzaWJsZVRpbWVzO0YnRkAvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRkkvJSlzdHJldGNoeUdGSS8lKnN5bW1ldHJpY0dGSS8lKGxhcmdlb3BHRkkvJS5tb3ZhYmxlbGltaXRzR0ZJLyUnYWNjZW50R0ZJLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGWC1GLDYmLUkjbWlHRiQ2JVEiZkYnLyUnaXRhbGljR1EldHJ1ZUYnL0ZBUSdpdGFsaWNGJy1GRDYtUTAmQXBwbHlGdW5jdGlvbjtGJ0ZARkdGSkZMRk5GUEZSRlRGVkZZLUYxNiQtRmhuNiVRInpGJ0Zbb0Zeb0ZARkBGQy1GMTYkLUYsNigtRjY2KC1JJW1zdXBHRiQ2JS1GRDYtUSsmUGFydGlhbEQ7RidGQEZHRkpGTEZORlBGUkZURlZGWUY8LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GLDYnRmFwLUZobjYlUSJ0RidGW29GXm9GYXAtRmhuNiVRInlGJ0Zbb0Zeb0ZALyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZkcS8lKWJldmVsbGVkR0ZJLUknbXNwYWNlR0YkNiYvJSdoZWlnaHRHUSYwLjBleEYnLyUmd2lkdGhHUSYwLjRlbUYnLyUmZGVwdGhHRl5yLyUqbGluZWJyZWFrR1ElYXV0b0YnLUZobjYlUSYmcHNpO0YnL0Zcb0ZJRkBGYG8tRjE2JC1GLDYsRmlwLUZENi1RIixGJ0ZARkcvRktGXW9GTEZORlBGUkZURlYvRlpRLDAuMzMzMzMzM2VtRictRmhuNiVRInhGJ0Zbb0Zeb0Zfc0ZccUZfc0Zlby8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGSUZARkBGQEZARkMtSSZtc3FydEdGJDYjLUY2NigtRj02JEZhcUZARmVuRl9xRmJxRmVxRmdxRkAtRkQ2LVEoJm1pbnVzO0YnRkBGR0ZKRkxGTkZQRlJGVC9GV1EsMC4yMjIyMjIyZW1GJy9GWkZodC1GLDYoRjxGQ0ZlbkZDLUYxNiQtRiw2KC1GNjYoRl5wLUYsNidGYXBGZXNGYXBGZW9GQEZfcUZicUZlcUZncUZpcS1GaG42JVEmJnBoaTtGJ0ZqckZARmBvRltzRkBGQEZALUZENi1RJyZwbHVzO0YnRkBGR0ZKRkxGTkZQRlJGVEZndEZpdC1GLDYmLUYxNiQtRiw2KC1GNjYoRmFwLUYsNiVGYXBGZXNGQEZfcUZicUZlcUZncUZpcUZkdUZgb0Zbc0ZARkBGQy1GMTYkLUYsNigtRjY2KC1GRDYtUTAmRGlmZmVyZW50aWFsRDtGJ0ZARkdGSkZMRk5GUEZSRlRGVkZZLUYsNiVGanZGZW9GQEZfcUZicUZlcUZncUZpcUZnbkZgb0Zjb0ZARkBGQEZALUYsNiZGPEZDRmVuRkBGX3FGYnFGZXFGZ3FGQy1GaG42JVEjZHRGJ0Zbb0Zeb0ZARkBGQy1GaG42JVErJmJpZ3dlZGdlO0YnRltvRl5vRkMtRmhuNiVRI2R4RidGW29GXm9GQEZkdC1GMTYkLUYsNigtRjE2JC1GLDYmLUY2NigtRiw2KC1GLDYqRjxGQ0ZlbkZDLUYxNiQtRiw2KC1GNjYoRl5wLUYsNidGYXBGaXBGYXBGZXNGQEZfcUZicUZlcUZncUZpcUZnckZgb0Zbc0ZARkBGQ0ZddEZARmd1LUYsNihGPEZDRmVuRkMtRjE2JC1GLDYoLUY2NihGXnAtRiw2J0ZhcEZccUZhcEZlb0ZARl9xRmJxRmVxRmdxRmlxRmR1RmBvRltzRkBGQEZARmR0LUYsNiYtRjE2JC1GLDYoLUY2NihGYXAtRiw2JUZhcEZccUZARl9xRmJxRmVxRmdxRmlxRmR1RmBvRltzRkBGQEZDRmR2RkBGQEZfd0ZfcUZicUZlcUZncUZDRmF3RkBGQEZDRmR3RkMtRmhuNiVRI2R5RidGW29GXm9GQEZARmd1LUYsNigtRjE2JC1GLDYmLUY2NigtRiw2LS1GRDYtUSomdW1pbnVzMDtGJ0ZARkdGSkZMRk5GUEZSRlRGZ3RGaXQtRiw2KEY8RkMtRjE2JC1GLDYoLUY2NihGXnAtRiw2JUZhcC1GX3A2JUZlb0Y8RmRwRkBGX3FGYnFGZXFGZ3FGaXFGZHVGYG9GW3NGQEZARkMtRl9wNiVGZW5GPEZkcEZARmd1LUYsNigtRjE2JC1GLDYoLUY2NihGYXAtRiw2JUZhcEZlb0ZARl9xRmJxRmVxRmdxRmlxRmR1RmBvRltzRkBGQEZDRmR2RkNGZW5GQEZndS1GLDYoLUYsNiZGZHVGYG9GW3NGQEZDLUYxNiQtRiw2KC1GNjYoLUZfcDYlRmp2RjxGZHAtRiw2JUZqdkZeXGxGQEZfcUZicUZlcUZncUZpcUZnbkZgb0Zjb0ZARkBGQ0ZlbkZARmR0LUYsNiZGXl1sRkMtRl9wNiVGZHZGPEZkcEZARmd1LUYsNihGPEZDLUYxNiQtRiw2KC1GNjYoRl5wLUYsNiVGYXAtRl9wNiVGaXBGPEZkcEZARl9xRmJxRmVxRmdxRmlxRmR1RmBvRltzRkBGQEZDRmVuRkBGQC1GLDYmRjxGQ0ZgXGxGQEZfcUZicUZlcUZncUZDRmF3RkBGQEZDRmR3RkMtRmhuNiVRI2R6RidGW29GXm9GQEZkdC1GMTYkLUYsNigtRjE2JC1GLDYmLUYsNiZGXXRGQy1GMTYkLUYsNiYtRiw2KC1GNjYoRl5wLUYsNiVGYXAtRl9wNiVGZXNGPEZkcEZARl9xRmJxRmVxRmdxRmlxRmdyRmBvRltzRkBGZ3UtRiw2KC1GNjYoRl5wLUYsNiVGYXAtRl9wNiVGXHFGPEZkcEZARl9xRmJxRmVxRmdxRmlxRmdyRmBvRltzRkBGQEZARkBGQ0Znd0ZARkBGQ0Zkd0ZDRmR6RkBGQEZndS1GLDYoLUYxNiQtRiw2Ji1GNjYoLUYsNigtRiw2KkY8RkMtRjE2JC1GLDYoRlx5RmlxRmR1RmBvRltzRkBGQEZDRmVuRkNGXXRGQEZkdC1GLDYoRjxGQy1GMTYkLUYsNihGZnlGaXFGZ3JGYG9GW3NGQEZARkNGZW5GQEZndS1GLDYmLUYxNiQtRiw2KEZgekZpcUZnckZgb0Zbc0ZARkBGQ0ZkdkZARkAtRiw2KEY8RkNGYFxsRkNGXXRGQEZfcUZicUZlcUZncUZDRmd3RkBGQEZDRmR3RkNGXF9sRkBGZ3UtRiw2KC1GMTYkLUYsNiYtRjY2KC1GLDYoLUYsNipGPEZDLUYxNiQtRiw2KEZccEZpcUZkdUZgb0Zbc0ZARkBGQ0ZlbkZDRl10RkBGZ3UtRiw2KEY8RkMtRjE2JC1GLDYoRmB1RmlxRmdyRmBvRltzRkBGQEZDRmVuRkBGZHQtRiw2Ji1GMTYkLUYsNihGYHZGaXFGZ3JGYG9GW3NGQEZARkNGZHZGQEZARmlibEZfcUZicUZlcUZncUZDRmR6RkBGQEZDRmR3RkNGXF9sRkBGQC1GLDYmLUZobjYlUSRfREdGJ0Zbb0Zeb0Zgby1GMTYkLUYxNiYtRiw2KC1GMTYmLUYsNiotSSNtc0dGJDYjUSVmb3JtRidGX3MtRmhuNiVRLE1fY2FydGVzaWFuRidGW29GXm9GX3NGPEZoc0ZbdEZARkAvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0YnRl9zLUYxNiYtRiw2MC1GMTYmLUYsNigtRjE2Ji1GLDYoRmJ0Rl9zRjxGaHNGW3RGQEZARl1mbEZgZmxGX3NGNUZoc0ZbdEZARkBGXWZsRmBmbEZfcy1GMTYmLUYsNigtRjE2Ji1GLDYoRmJ0Rl9zLUY9NiRRIjNGJ0ZARmhzRlt0RkBGQEZdZmxGYGZsRl9zLUYsNiVGYVtsRmJ4RkBGaHNGW3RGQEZARl1mbEZgZmxGX3MtRjE2Ji1GLDYoLUYxNiYtRiw2KEZidEZfcy1GPTYkUSI0RidGQEZoc0ZbdEZARkBGXWZsRmBmbEZfc0ZdW2xGaHNGW3RGQEZARl1mbEZgZmxGX3MtRjE2Ji1GLDYoLUYxNiYtRiw2KEY8Rl9zRmdnbEZoc0ZbdEZARkBGXWZsRmBmbEZfcy1GLDYlRmFbbEZnX2xGQEZoc0ZbdEZARkBGXWZsRmBmbEZfcy1GMTYmLUYsNigtRjE2Ji1GLDYoRjxGX3NGZGhsRmhzRlt0RkBGQEZdZmxGYGZsRl9zRmNhbEZoc0ZbdEZARkBGXWZsRmBmbEZfcy1GMTYmLUYsNigtRjE2Ji1GLDYoRmdnbEZfc0ZkaGxGaHNGW3RGQEZARl1mbEZgZmxGX3NGYWNsRmhzRlt0RkBGQEZdZmxGYGZsRmhzRlt0RkBGQEZdZmxGYGZsRmhzRlt0RkBGQEZdZmxGYGZsRkBGQA==">LUkkX0RHRzYiNiM3JDclUSVmb3JtRiRJLE1fY2FydGVzaWFuR0YkIiIjNyg3JDckIiIiRiosJCooI0YuRipGLi1JImZHRiQ2I0kiekclKnByb3RlY3RlZEchIiIsKCoqRipGLkYyRi4tSSVkaWZmR0Y2NiQtRjs2JC1JJHBzaUdGJDYmSSJ0R0Y2SSJ4R0Y2SSJ5R0Y2RjVGQkZERi4pKiRGMkY3RjFGLkYuKihGKkYuRjJGLi1GOzYkLUY7NiQtSSRwaGlHRiRGQUZDRjVGLkY3KiZGSkYuLUY7NiRGMkY1Ri5GLkYuRi43JDckRi4iIiQsJCooRjFGLkYyRjcsKCoqRipGLkYyRi4tRjs2JEY9RkNGLkZFRi5GLiooRipGLkYyRi4tRjs2JC1GOzYkRkxGREY1Ri5GLiomRmduRi5GT0YuRjdGLkY3NyQ3JEYuIiIlLCQqKEYxRi4sLCooRipGLi1GOzYkLUY7NiRGTEY1RjVGLilGMkYqRi5GNyooRmNvRi5GT0YuRjJGLkYuKihGTEYuLUY7NiRGT0Y1Ri5GMkYuRi4qJkZMRi4pRk9GKkYuRjcqKEYqRi4tRjs2JC1GOzYkRkxGQkZCRi5GMkYuRi5GLkZlb0Y3Ri43JDckRipGUywkKiZGRUYuLCYtRjs2JC1GOzYkRj9GQ0ZDRi4tRjs2JC1GOzYkRj9GREZERi5GLkY3NyQ3JEYqRlxvLCQqKkYxRi5GZW9GNywoKipGKkYuLUY7NiRGX3BGQ0YuRjJGLkZFRi5GLiooRipGLi1GOzYkRlxxRjVGLkYyRi5GNyomRlxxRi5GT0YuRi5GLkZFRjdGLjckNyRGU0ZcbywkKipGMUYuRmVvRjcsKCoqRipGLi1GOzYkRl9wRkRGLkYyRi5GRUYuRi4qKEYqRi4tRjs2JEZocEY1Ri5GMkYuRi4qJkZocEYuRk9GLkY3Ri5GRUY3Ri4=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L585" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L123" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L124" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="M &gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+</Worksheet>
